@@ -72,12 +72,17 @@
         </table>
         <form>
             <label>Title</label>
+            <input type="submit" value="Add new course"><br>
             <input type="text" id="courseName" placeholder="Course title">
             <label>Semester</label>
-            <input type="text" id="semester" placeholder="Course semester">
+            <select id="Semester">
+                <option value="S1F">Semester 1 fall</option>
+                <option value="S1S">Semester 1 spring</option>
+                <option value="S2F">Semester 2 fall</option>
+                <option value="S2S">Semester 2 spring</option>
+            </select>
             <label>Grade</label>
             <input type="number" min="0" max="100" id="grade">
-            <input type="submit" value="Add course">
         </form>
     </section>
 
