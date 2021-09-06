@@ -9,21 +9,21 @@
 
 <body>
     <header>
-        <strong>Welcome to your dashboard!</strong>
+        <strong>Welcome to your dashboard!!</strong>
     </header>
     <section>
         <div>
-            <img src="res/images/mina.jpg" alt="My picture">
+            <img src="res/images/me.png" alt="My picture">
         </div>
         <div>
             <ul>
-                <li>Kristofer Johan Arro</li>
-                <li>04/10/2000</li>
+                <li>John Doe</li>
+                <li>27/06/1993</li>
                 <li>Software Engineering</li>
             </ul>
         </div>
         <div>
-            <strong>3.8</strong>
+            <strong>2.65</strong>
         </div>
     </section>
     <section>
@@ -68,22 +68,25 @@
                     <td></td>
                     <td>This is a table footer</td>
                 </tr>
+                <tr>
+                    <td colspan="4">
+                    <form>
+                        <input colspan="4" type="submit" value="Add new course"><br>
+                        <label>Title</label>
+                        <input type="text" id="courseName" placeholder="Course title">
+                        <label>Semester</label>
+                        <select id="Semester">
+                            <option value="S1F">Semester 1 fall</option>
+                            <option value="S1S">Semester 1 spring</option>
+                            <option value="S2F">Semester 2 fall</option>
+                            <option value="S2S">Semester 2 spring</option>
+                        </select>
+                        <label>Grade</label>
+                        <input type="number" min="0" max="100" id="grade">
+                    </form>
+                </td></tr>
             </tfoot>
         </table>
-        <form>
-            <label>Title</label>
-            <input type="submit" value="Add new course"><br>
-            <input type="text" id="courseName" placeholder="Course title">
-            <label>Semester</label>
-            <select id="Semester">
-                <option value="S1F">Semester 1 fall</option>
-                <option value="S1S">Semester 1 spring</option>
-                <option value="S2F">Semester 2 fall</option>
-                <option value="S2S">Semester 2 spring</option>
-            </select>
-            <label>Grade</label>
-            <input type="number" min="0" max="100" id="grade">
-        </form>
     </section>
 
 
